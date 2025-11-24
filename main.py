@@ -1,5 +1,3 @@
-# streamlit_app.py
-
 import os
 import uuid
 import operator
@@ -257,6 +255,7 @@ def start_new_run(company_name: str):
     }
 
     guidance = guidance_for_user_type(company_name)
+    print(guidance)
 
     with st.spinner(f"Parallel researching: {company_name}..."):
         for event in app.stream(initial_input, config):
