@@ -1,0 +1,4 @@
+extra/
+venv/
+.env
+.venv/

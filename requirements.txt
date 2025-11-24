@@ -1,0 +1,10 @@
+streamlit
+langchain-openai
+langchain-core
+langchain-community 
+langgraph
+tavily-python
+langgraph
+langgraph-checkpoint-sqlite
+langchain-tavily
+python-dotenv
